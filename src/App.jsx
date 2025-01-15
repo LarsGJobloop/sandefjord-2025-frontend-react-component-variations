@@ -1,6 +1,7 @@
 import style from "./App.module.css";
 import { ComponentWithChildren } from "./components/ComponentWithChildren/ComponentWithChildren";
 import { CustomImageFrame } from "./components/CustomImageFrame/CustomImageFrame";
+import { ProductList } from "./components/ProductList/ProductList";
 
 function App() {
   return (
@@ -42,6 +43,12 @@ function App() {
               <CustomImageFrame src="https://images.unsplash.com/photo-1735306005581-e09d7dda15b1?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
             </li>
           </ComponentWithChildren>
+        </section>
+
+        <section>
+          <h2>Rendering of Lists</h2>
+
+          <ProductList />
         </section>
       </main>
     </div>
