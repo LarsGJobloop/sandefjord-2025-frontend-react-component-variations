@@ -1,4 +1,5 @@
 .productList {
+  min-height: 100vh;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
